@@ -574,8 +574,8 @@ public class InAppBrowser extends CordovaPlugin {
                 RelativeLayout toolbar = new RelativeLayout(cordova.getActivity());
                 //Please, no more black!
                 toolbar.setBackgroundColor(hexStringToColor("#2196F3"));
-                toolbar.setLayoutParams(new RelativeLayout.LayoutParams(LayoutParams.MATCH_PARENT, this.dpToPixels(44)));
-                toolbar.setPadding(this.dpToPixels(4), this.dpToPixels(4), this.dpToPixels(4), this.dpToPixels(4));
+                toolbar.setLayoutParams(new RelativeLayout.LayoutParams(LayoutParams.MATCH_PARENT, this.dpToPixels(48)));
+                toolbar.setPadding(this.dpToPixels(4), this.dpToPixels(6), this.dpToPixels(4), this.dpToPixels(6));
                 toolbar.setHorizontalGravity(Gravity.LEFT);
                 toolbar.setVerticalGravity(Gravity.TOP);
 
